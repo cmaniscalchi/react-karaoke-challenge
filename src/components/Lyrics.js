@@ -99,7 +99,7 @@ class Lyrics extends Component {
   }
 
   render() {
-    console.log("Lyrics:", this.props)
+    // console.log("Lyrics:", this.props)
     return (
       <div className="lyrics">
         <pre>

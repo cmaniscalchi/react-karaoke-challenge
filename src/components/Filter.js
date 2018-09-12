@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-const Filter = props => {
-  // console.log("Filter:", props)
+const Filter = (props) => {
+
+console.log("Filter:", props);
+
   return (
     <div className="filter">
       <label htmlFor="title-filter">Title: </label>
-      <input onChange={props.handleChange} id="title-filter" type="text" value={props.input} />
+      <input onChange={props.handleFilterInput} id="title-filter" type="text" value={props.input} />
     </div>
   );
 }
